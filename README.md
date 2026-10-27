@@ -50,7 +50,7 @@ Your selections are incorporated into a revised natural-language question that m
 
 The refined question is sent to a downstream Text-to-SQL model. You can compare the resulting SQL with the query generated from the original request and evaluate the results using the available comparison functionality.
 
-## 🧰 Built With
+## Built With
 
 | Technology | Role |
 |---|---|
@@ -142,7 +142,7 @@ If the directory is named `chatbox/` in your version, use that path instead. Che
 
 Keep both servers running while using the application.
 
-## 🔑 API Configuration
+## API Configuration
 
 The original implementation references the following environment variables:
 
@@ -158,7 +158,7 @@ export MODELSCOPE_API_KEY="your_api_key"
 
 Use real credentials locally and keep them out of source control. Never expose secret API keys in frontend code or commit them to a public repository.
 
-## 🧪 Experiment With It
+## Experiment With It
 
 Try the same question twice:
 
@@ -168,12 +168,12 @@ Try the same question twice:
 
 This provides a practical way to examine how clarifying user intent affects Text-to-SQL generation.
 
-## 🎯 Project Objective
+## Project Objective
 
 Ask2Query explores a simple but important idea in AI-assisted database access: a model should not have to guess when a user's intent is unclear.
 
 By combining language-model reasoning, database context, and user feedback, the system aims to make natural-language database querying more reliable and understandable.
 
-## 📄 License
+## License
 
 This project retains the original [Apache License 2.0](LICENSE), subject to the terms of the repository's license and any applicable attribution requirements.
