@@ -1,4 +1,5 @@
-# Ask2Query 
+# Ask2Query
+
 ### From Natural Language to SQL, with Clarity.
 
 Ask2Query is an AI-powered assistant that helps users turn everyday questions into more precise database queries. Instead of immediately generating SQL from potentially confusing instructions, it identifies unclear parts of a question, asks users to resolve them, and then passes the refined request to a Text-to-SQL model.
@@ -13,7 +14,7 @@ Consider this question:
 
 > How many drivers born after the Vietnam War have been ranked 2?
 
-What does *"after the Vietnam War"* mean in terms of an exact date? Does *"ranked 2"* refer to the `rank`, `position`, or `positionOrder` column?
+What does _"after the Vietnam War"_ mean in terms of an exact date? Does _"ranked 2"_ refer to the `rank`, `position`, or `positionOrder` column?
 
 A Text-to-SQL model might silently choose one interpretation and produce a query that executes successfully but answers the wrong question.
 
@@ -52,14 +53,14 @@ The refined question is sent to a downstream Text-to-SQL model. You can compare 
 
 ## Built With
 
-| Technology | Role |
-|---|---|
-| Python | Backend processing and application logic |
-| Flask | Backend HTTP server |
-| JavaScript / Node.js | Frontend development and tooling |
-| LLM APIs | Language understanding, clarification, and query refinement |
-| Text-to-SQL models | Translating refined questions into SQL |
-| BIRD benchmark | Evaluation using benchmark database examples |
+| Technology           | Role                                                        |
+| -------------------- | ----------------------------------------------------------- |
+| Python               | Backend processing and application logic                    |
+| Flask                | Backend HTTP server                                         |
+| JavaScript / Node.js | Frontend development and tooling                            |
+| LLM APIs             | Language understanding, clarification, and query refinement |
+| Text-to-SQL models   | Translating refined questions into SQL                      |
+| BIRD benchmark       | Evaluation using benchmark database examples                |
 
 The exact model configuration and frontend framework depend on the source code and project setup.
 
@@ -84,7 +85,7 @@ cd Ask2Query
 
 If you've created a separate Ask2Query repository, use that repository's URL instead.
 
-### 2. Prepare Python
+### 2. Prepare Python environment
 
 From the project root, create and activate a virtual environment:
 
